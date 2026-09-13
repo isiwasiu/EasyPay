@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NibbssNPSPaymentStack.Business.Models
+{
+    public class GeolocationApiResponse
+    {
+        public string? country { get; set; }
+        public string? city { get; set; }
+        public string? regionName { get; set; }
+        public double lat { get; set; }
+        public double lon { get; set; }
+    }
+}

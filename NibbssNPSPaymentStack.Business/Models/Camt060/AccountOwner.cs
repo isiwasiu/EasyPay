@@ -1,0 +1,17 @@
+﻿using NibbssNPSPaymentStack.Business.Models.acmt023;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+namespace NibbssNPSPaymentStack.Business.Models.Camt060
+{
+    public class AccountOwner
+    {
+        [XmlElement("Agt")]
+        public Agent? Agent { get; set; }
+
+    }
+}

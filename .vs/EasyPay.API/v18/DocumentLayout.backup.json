@@ -1,0 +1,828 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\EasyPay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\services\\nibssnpspayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\services\\nibssnpspayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\controllers\\easyoutwardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\controllers\\easyoutwardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\controllers\\easyinwardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\controllers\\easyinwardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\npsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\npsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\model\\userssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\model\\userssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\model\\tokenmgt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\model\\tokenmgt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\controllers\\easyadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\controllers\\easyadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\contract\\inibssnpspayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\contract\\inibssnpspayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\middleware\\userregistrationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\middleware\\userregistrationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\AppData\\Local\\Temp\\.vsdbgsrc\\5e59e3790fdaf97dd2e18ad9eb40d43a104d853a3ac00fcf55b2e260416a57cc\\Nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\EasyPay\\EasyPay.Business\\Services\\NibssNPSPayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EasyPay.Business\\Services\\NibssNPSPayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MTN\\Backup\\NIBSSPAYPLUS\\PAYPLUS\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PethahiahNPSPaymentStack\\NibbssNPSPaymentStack.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\easypay.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\easypay.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\nibbssnpspaymentstack.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\nibbssnpspaymentstack.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\nibssnpspaymentstack.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\nibssnpspaymentstack.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\EasyPay\\NibbssNPSPaymentStack.API\\bin\\Release\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NibbssNPSPaymentStack.API\\bin\\Release\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\.nuget\\packages\\npoi\\2.8.0\\build\\NPOI.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\middleware\\errorresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\middleware\\errorresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\tokencache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\tokencache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\services\\userregistrationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\services\\userregistrationservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\model\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\model\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\modelview\\userssetupview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\modelview\\userssetupview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\modelview\\userssetup1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\modelview\\userssetup1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\model\\grantedendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\model\\grantedendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\services\\fileutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\services\\fileutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\dircetionconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\dircetionconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\pain008\\pain008request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\pain008\\pain008request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\repositories\\dappeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\repositories\\dappeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\model\\ratelimitrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\model\\ratelimitrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\models\\model\\ipwhitelistentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\models\\model\\ipwhitelistentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\dto\\updatenameenquirydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\dto\\updatenameenquirydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\dto\\nameenquiryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\dto\\nameenquiryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\dto\\getnameenquirysdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\dto\\getnameenquirysdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\dto\\createnameenquirydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\dto\\createnameenquirydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|c:\\easypay\\nibssnpspaymentstack.data\\dto\\getnameenquirybymessageiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5492FEE9-C446-4B8A-BB89-DC0ABB6B298A}|NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj|solutionrelative:nibssnpspaymentstack.data\\dto\\getnameenquirybymessageiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\acmt023\\acmt023document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\acmt023\\acmt023document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\pacs002\\credittransferstatusreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\pacs002\\credittransferstatusreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\pain002\\customerpaymentstatusreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\pain002\\customerpaymentstatusreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\pain002\\statusreasoninformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\pain002\\statusreasoninformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|c:\\easypay\\nibbssnpspaymentstack.business\\models\\pain002\\pain002response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C29316F-BA4A-4D76-B59F-D9C9876EBB7C}|NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj|solutionrelative:nibbssnpspaymentstack.business\\models\\pain002\\pain002response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|c:\\easypay\\nibbssnpspaymentstack.api\\easypay.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C5F1815B-9AC9-4100-BBEA-ECF03DBAEA86}|NibbssNPSPaymentStack.API\\EasyPay.API.csproj|solutionrelative:nibbssnpspaymentstack.api\\easypay.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2033337944:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NibssNPSPayments.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Services\\NibssNPSPayments.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Services\\NibssNPSPayments.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Services\\NibssNPSPayments.cs*",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Services\\NibssNPSPayments.cs*",
+              "ViewState": "AgIAABkcAAAAACATuMwiwDYcAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T15:03:54.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NPSDBContext.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\NPSDBContext.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\NPSDBContext.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\NPSDBContext.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\NPSDBContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:06:51.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EasyInwardController.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Controllers\\EasyInwardController.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Controllers\\EasyInwardController.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Controllers\\EasyInwardController.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Controllers\\EasyInwardController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwCkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:21:56.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersSetup.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\UsersSetup.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\Model\\UsersSetup.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\UsersSetup.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\Model\\UsersSetup.cs",
+              "ViewState": "AgIAAA0AAAAAAAAXe0cQwEQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T12:05:33.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EasyOutwardController.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Controllers\\EasyOutwardController.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Controllers\\EasyOutwardController.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Controllers\\EasyOutwardController.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Controllers\\EasyOutwardController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIAwwDkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T08:02:38.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenMgt.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\TokenMgt.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\Model\\TokenMgt.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\TokenMgt.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\Model\\TokenMgt.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T20:23:55.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\appsettings.json",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\appsettings.json",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\appsettings.json",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\appsettings.json",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-28T15:36:20.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EasyAdminController.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Controllers\\EasyAdminController.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Controllers\\EasyAdminController.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Controllers\\EasyAdminController.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Controllers\\EasyAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T10:49:14.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\appsettings.Development.json",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\appsettings.Development.json",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-09T09:43:14.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Program.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Program.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Program.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Program.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T21:19:00.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "INibssNPSPayments.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Contract\\INibssNPSPayments.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Contract\\INibssNPSPayments.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Contract\\INibssNPSPayments.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Contract\\INibssNPSPayments.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAGMAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T22:24:33.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRegistrationService .cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Middleware\\UserRegistrationService .cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Middleware\\UserRegistrationService .cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Middleware\\UserRegistrationService .cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Middleware\\UserRegistrationService .cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T10:38:38.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Nullable.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\AppData\\Local\\Temp\\.vsdbgsrc\\5e59e3790fdaf97dd2e18ad9eb40d43a104d853a3ac00fcf55b2e260416a57cc\\Nullable.cs",
+              "RelativeDocumentMoniker": "..\\Users\\HP\\AppData\\Local\\Temp\\.vsdbgsrc\\5e59e3790fdaf97dd2e18ad9eb40d43a104d853a3ac00fcf55b2e260416a57cc\\Nullable.cs",
+              "ToolTip": "C:\\Users\\HP\\AppData\\Local\\Temp\\.vsdbgsrc\\5e59e3790fdaf97dd2e18ad9eb40d43a104d853a3ac00fcf55b2e260416a57cc\\Nullable.cs [Read Only]",
+              "RelativeToolTip": "..\\Users\\HP\\AppData\\Local\\Temp\\.vsdbgsrc\\5e59e3790fdaf97dd2e18ad9eb40d43a104d853a3ac00fcf55b2e260416a57cc\\Nullable.cs [Read Only]",
+              "ViewState": "AgIAABYAAAAAAAAAAAAewCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T07:21:07.847Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NibssNPSPayments.cs",
+              "DocumentMoniker": "C:\\EasyPay\\EasyPay.Business\\Services\\NibssNPSPayments.cs",
+              "RelativeDocumentMoniker": "EasyPay.Business\\Services\\NibssNPSPayments.cs",
+              "ToolTip": "C:\\EasyPay\\EasyPay.Business\\Services\\NibssNPSPayments.cs",
+              "RelativeToolTip": "EasyPay.Business\\Services\\NibssNPSPayments.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T21:34:23.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorResponseMiddleware.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Middleware\\ErrorResponseMiddleware.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Middleware\\ErrorResponseMiddleware.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Middleware\\ErrorResponseMiddleware.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Middleware\\ErrorResponseMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T10:42:57.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TokenCache.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\TokenCache.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\TokenCache.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\TokenCache.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\TokenCache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T12:11:06.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\TokenResponse.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\TokenResponse.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T12:13:21.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRegistrationService .cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Services\\UserRegistrationService .cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Services\\UserRegistrationService .cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Services\\UserRegistrationService .cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Services\\UserRegistrationService .cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAACUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T14:21:11.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PethahiahNPSPaymentStack\\NibbssNPSPaymentStack.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\PethahiahNPSPaymentStack\\NibbssNPSPaymentStack.API\\appsettings.json",
+              "ToolTip": "C:\\PethahiahNPSPaymentStack\\NibbssNPSPaymentStack.API\\appsettings.json",
+              "RelativeToolTip": "..\\PethahiahNPSPaymentStack\\NibbssNPSPaymentStack.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-07T21:47:55.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\MTN\\Backup\\NIBSSPAYPLUS\\PAYPLUS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\MTN\\Backup\\NIBSSPAYPLUS\\PAYPLUS\\appsettings.Development.json",
+              "ToolTip": "C:\\MTN\\Backup\\NIBSSPAYPLUS\\PAYPLUS\\appsettings.Development.json",
+              "RelativeToolTip": "..\\MTN\\Backup\\NIBSSPAYPLUS\\PAYPLUS\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-07T22:28:00.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Apikey.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\Apikey.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\Model\\Apikey.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\Apikey.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\Model\\Apikey.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA+wBkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T06:56:50.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\Middleware\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\Middleware\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T09:06:26.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersSetupView.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetupView.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetupView.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetupView.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetupView.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T09:39:35.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsersSetup1.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetup1.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetup1.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetup1.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\ModelView\\UsersSetup1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:06:35.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Grantedendpoints.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\Grantedendpoints.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\Model\\Grantedendpoints.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\Grantedendpoints.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\Model\\Grantedendpoints.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIBQwCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T03:30:31.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FileUtility.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Services\\FileUtility.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Services\\FileUtility.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Services\\FileUtility.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Services\\FileUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T09:43:42.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DircetionConstant.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\DircetionConstant.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\DircetionConstant.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\DircetionConstant.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\DircetionConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T10:55:35.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Pain008Request.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain008\\Pain008Request.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\Pain008\\Pain008Request.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain008\\Pain008Request.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\Pain008\\Pain008Request.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAhwBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T14:24:32.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\bin\\Release\\net8.0\\appsettings.json",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\bin\\Release\\net8.0\\appsettings.json",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\bin\\Release\\net8.0\\appsettings.json",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\bin\\Release\\net8.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T10:28:49.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NPOI.targets",
+              "DocumentMoniker": "C:\\Users\\HP\\.nuget\\packages\\npoi\\2.8.0\\build\\NPOI.targets",
+              "RelativeDocumentMoniker": "..\\Users\\HP\\.nuget\\packages\\npoi\\2.8.0\\build\\NPOI.targets",
+              "ToolTip": "C:\\Users\\HP\\.nuget\\packages\\npoi\\2.8.0\\build\\NPOI.targets",
+              "RelativeToolTip": "..\\Users\\HP\\.nuget\\packages\\npoi\\2.8.0\\build\\NPOI.targets",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-08-22T15:26:50.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAJEJAAAAAAAAAAAlwJQJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-08-22T13:41:57.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Dappeer.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Repositories\\Dappeer.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Repositories\\Dappeer.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Repositories\\Dappeer.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Repositories\\Dappeer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T05:10:55.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RateLimitRule.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\RateLimitRule.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\Model\\RateLimitRule.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\RateLimitRule.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\Model\\RateLimitRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:06:33.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IpWhitelistEntry.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\IpWhitelistEntry.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Models\\Model\\IpWhitelistEntry.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Models\\Model\\IpWhitelistEntry.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Models\\Model\\IpWhitelistEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:06:30.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateNameEnquiryDto.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\UpdateNameEnquiryDto.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Dto\\UpdateNameEnquiryDto.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\UpdateNameEnquiryDto.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Dto\\UpdateNameEnquiryDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:06:00.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "NameEnquiryResponseDto.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\NameEnquiryResponseDto.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Dto\\NameEnquiryResponseDto.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\NameEnquiryResponseDto.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Dto\\NameEnquiryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:05:55.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetNameEnquirysDto.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\GetNameEnquirysDto.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Dto\\GetNameEnquirysDto.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\GetNameEnquirysDto.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Dto\\GetNameEnquirysDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:05:44.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateNameEnquiryDto.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\CreateNameEnquiryDto.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Dto\\CreateNameEnquiryDto.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\CreateNameEnquiryDto.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Dto\\CreateNameEnquiryDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:05:21.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetNameEnquiryByMessageIdDto.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\GetNameEnquiryByMessageIdDto.cs",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\Dto\\GetNameEnquiryByMessageIdDto.cs",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\Dto\\GetNameEnquiryByMessageIdDto.cs",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\Dto\\GetNameEnquiryByMessageIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T03:05:13.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "acmt023Document.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\acmt023\\acmt023Document.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\acmt023\\acmt023Document.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\acmt023\\acmt023Document.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\acmt023\\acmt023Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T13:17:58.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreditTransferStatusReport.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pacs002\\CreditTransferStatusReport.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\Pacs002\\CreditTransferStatusReport.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pacs002\\CreditTransferStatusReport.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\Pacs002\\CreditTransferStatusReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T12:05:10.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CustomerPaymentStatusReport.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain002\\CustomerPaymentStatusReport.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\Pain002\\CustomerPaymentStatusReport.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain002\\CustomerPaymentStatusReport.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\Pain002\\CustomerPaymentStatusReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T12:25:09.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "StatusReasonInformation.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain002\\StatusReasonInformation.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\Pain002\\StatusReasonInformation.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain002\\StatusReasonInformation.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\Pain002\\StatusReasonInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T11:30:45.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Pain002Response.cs",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain002\\Pain002Response.cs",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\Models\\Pain002\\Pain002Response.cs",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\Models\\Pain002\\Pain002Response.cs",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\Models\\Pain002\\Pain002Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T10:43:17.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EasyPay.API.http",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\EasyPay.API.http",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\EasyPay.API.http",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\EasyPay.API.http",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\EasyPay.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-14T07:37:06.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EasyPay.API.csproj",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\EasyPay.API.csproj",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.API\\EasyPay.API.csproj",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.API\\EasyPay.API.csproj",
+              "RelativeToolTip": "NibbssNPSPaymentStack.API\\EasyPay.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T10:40:28.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NibbssNPSPaymentStack.Business.csproj",
+              "DocumentMoniker": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj",
+              "RelativeDocumentMoniker": "NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj",
+              "ToolTip": "C:\\EasyPay\\NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj",
+              "RelativeToolTip": "NibbssNPSPaymentStack.Business\\NibbssNPSPaymentStack.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-26T07:00:29.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NibssNPSPaymentStack.Data.csproj",
+              "DocumentMoniker": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj",
+              "RelativeDocumentMoniker": "NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj",
+              "ToolTip": "C:\\EasyPay\\NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj",
+              "RelativeToolTip": "NibssNPSPaymentStack.Data\\NibssNPSPaymentStack.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-25T13:49:13.796Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

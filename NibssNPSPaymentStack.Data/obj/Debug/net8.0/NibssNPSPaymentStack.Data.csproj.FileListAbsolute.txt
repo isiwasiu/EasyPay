@@ -1,0 +1,15 @@
+C:\EasyPay\NibssNPSPaymentStack.Data\bin\Debug\net8.0\NibssNPSPaymentStack.Data.deps.json
+C:\EasyPay\NibssNPSPaymentStack.Data\bin\Debug\net8.0\NibssNPSPaymentStack.Data.runtimeconfig.json
+C:\EasyPay\NibssNPSPaymentStack.Data\bin\Debug\net8.0\NibssNPSPaymentStack.Data.dll
+C:\EasyPay\NibssNPSPaymentStack.Data\bin\Debug\net8.0\NibssNPSPaymentStack.Data.pdb
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.csproj.AssemblyReference.cache
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.AssemblyInfoInputs.cache
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.AssemblyInfo.cs
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.csproj.CoreCompileInputs.cache
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.dll
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\refint\NibssNPSPaymentStack.Data.dll
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.pdb
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPSPaymentStack.Data.genruntimeconfig.cache
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\ref\NibssNPSPaymentStack.Data.dll
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Debug\net8.0\NibssNPS.03D66113.Up2Date
