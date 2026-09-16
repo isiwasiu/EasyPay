@@ -13,3 +13,4 @@ C:\EasyPay\NibssNPSPaymentStack.Data\obj\Release\net8.0\NibssNPSPaymentStack.Dat
 C:\EasyPay\NibssNPSPaymentStack.Data\obj\Release\net8.0\NibssNPSPaymentStack.Data.genruntimeconfig.cache
 C:\EasyPay\NibssNPSPaymentStack.Data\obj\Release\net8.0\ref\NibssNPSPaymentStack.Data.dll
 C:\EasyPay\NibssNPSPaymentStack.Data\obj\Release\net8.0\NibssNPS.03D66113.Up2Date
+C:\EasyPay\NibssNPSPaymentStack.Data\obj\Release\net8.0\NibssNPSPaymentStack.Data.sourcelink.json

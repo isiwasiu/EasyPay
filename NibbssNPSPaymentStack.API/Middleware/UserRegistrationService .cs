@@ -26,35 +26,35 @@ namespace EasyPay.API.Middleware
         // private readonly NPSDBContext _context; // replace with your DbContext type
         private readonly RequestDelegate _next;
         private static readonly HashSet<string> _whitelistedPaths = new(StringComparer.OrdinalIgnoreCase)
-        {
-            "/Register",   // adjust to your actual token endpoint
-            "/login" ,   // add any other public endpoints
-            "/api/EasyAdmin/AllEndpoints",
-            "GetParticipant",
-            "Account-Verification",
-            "Easy-Pay/Customer-Credit-Transfer",
-            "Direct-Credit-Transfer",
-            "/pain/008",
-            "/pain/001",
-            "/pain/002",
-            "/acmt/023",
-            "/acmt/024"
-
-           
-        };
+    {
+        "/Register",   // adjust to your actual token endpoint
+        "/login",      // add any other public endpoints
+        "/api/EasyAdmin/AllEndpoints",
+        "GetParticipant",
+        "Account-Verification",
+        "Easy-Pay/Customer-Credit-Transfer",
+        "Direct-Credit-Transfer",
+        "/pain/008",
+        "/pain/001",
+        "/pain/002",
+        "/acmt/023",
+        "/acmt/024"
+    };
 
         public UserRegistrationService(IConfiguration configuration, RequestDelegate next)
         {
-
             _next = next;
         }
-
-
 
         public async Task InvokeAsync(HttpContext httpContext)
         {
             var path = httpContext.Request.Path.Value ?? "";
-            if (_whitelistedPaths.Contains(path))
+
+            // Normalize: trim trailing slash for comparison
+            var normalizedPath = path.TrimEnd('/');
+
+            // Check whitelist using normalized path AND both with/without leading slash
+            if (IsWhitelisted(normalizedPath))
             {
                 await _next(httpContext);
                 return;
@@ -70,8 +70,8 @@ namespace EasyPay.API.Middleware
                 return;
             }
 
-
             var dbContext = httpContext.RequestServices.GetRequiredService<NPSDBContext>();
+
             // 1. Extract the API Key from the Authorization header
             if (!httpContext.Request.Headers.TryGetValue("Authorization", out var authHeader))
             {
@@ -95,11 +95,15 @@ namespace EasyPay.API.Middleware
 
             if (string.IsNullOrEmpty(apiKey))
             {
+                httpContext.Response.StatusCode = 401;
+                httpContext.Response.ContentType = "application/json";
                 await httpContext.Response.WriteAsync(JsonSerializer.Serialize(new { error = "API-Key header is missingy" }));
                 return;
             }
+
             // Trim to be safe
             apiKey = apiKey.Trim();
+
             // 2. Validate the key against your database table
             var client = await dbContext.UsersSetup.FirstOrDefaultAsync(x => x.ApiKey == apiKey);
 
@@ -131,11 +135,31 @@ namespace EasyPay.API.Middleware
 
             // 5. Store userId for controllers
             httpContext.Items["UserId"] = client.UserId;
-           
 
             // 6. Call the next middleware
             await _next(httpContext);
         }
 
+        // Helper: match whitelist with or without leading slash, and allow sub-routes
+        private static bool IsWhitelisted(string normalizedPath)
+        {
+            // Ensure path has leading slash for comparison
+            var withSlash = normalizedPath.StartsWith("/") ? normalizedPath : "/" + normalizedPath;
+
+            foreach (var entry in _whitelistedPaths)
+            {
+                var normalizedEntry = entry.TrimEnd('/');
+                var entryWithSlash = normalizedEntry.StartsWith("/") ? normalizedEntry : "/" + normalizedEntry;
+
+                // Exact match OR starts-with (sub-route)
+                if (withSlash.Equals(entryWithSlash, StringComparison.OrdinalIgnoreCase) ||
+                    withSlash.StartsWith(entryWithSlash + "/", StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
     }
 }
