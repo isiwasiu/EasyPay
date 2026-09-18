@@ -987,21 +987,60 @@ namespace NibbssNPSPaymentStack.Business.Services
         {
             try
             {
+                ActivitiesLog activitiesLog = new ActivitiesLog();
                 Acmt024Response acmt024Response = new();
+
+
+                var userId = _httpContextAccessor.HttpContext?.Items["UserId"] as string ?? "ANONYMOUS";
+                //   var apiKey = _httpContextAccessor.HttpContext?.Items["ApiKey"] as string;  
+                // var clientId = _httpContextAccessor.HttpContext?.Items["ClientId"] as string
+
+
+
+                var userAgent = _httpContextAccessor.HttpContext?.Request.Headers["User-Agent"].ToString();
+                var requestPath = _httpContextAccessor.HttpContext?.Request.Path;
+                var queryString = _httpContextAccessor.HttpContext?.Request.QueryString;
+                var method = _httpContextAccessor.HttpContext?.Request.Method;
+                var clientIp = GetClientIpAddress(_httpContextAccessor.HttpContext);
+
+
                 //string xpath = "//xenc:EncryptedData";
 
                 XmlDocument Encrypdoc1 = ConvertXmlToDoc(doc.OuterXml);
 
                 UpdateNameEnquiryDto nameEnquiryUpdate = new();
                 nameEnquiryUpdate.EncryptedResponse = doc.OuterXml;
+                activitiesLog.EncryptedResponse = doc.OuterXml;
+
+                // Directory.CreateDirectory(_settings.InwardFilePath!);
+                _logger.LogInformation("\r\n EasyPay encrypted Inward Acmt024  for Acmt023 response  is {@res} \r\n  with message ", doc.OuterXml);
 
                 //decrypt
+               // activitiesLog.Ec = NumericMsgIdGenerator.GetIsoTime();
                 await Task.Run(() => DecryptXmlElement(doc, _settings.EncryptDataPath!));
                 Acmt024Document pp = DeserializePayload<Acmt024Document>(doc.OuterXml);
                 string msgid = pp.IdVrfctnRpt!.Rpt!.OrgnlId;
 
+                activitiesLog.ClientId = userId;
+                activitiesLog.clientIpAddress = clientIp;
+                activitiesLog.UserAgent = userAgent;
+                activitiesLog.RequestCategory = method;
+                activitiesLog.Direction = DircetionConstant.Inward;
+
+                activitiesLog.Response = doc.OuterXml;
+
+
+
+
+                activitiesLog.MessageId = msgid;
+                activitiesLog.RequestDateTime = NumericMsgIdGenerator.GetIsoTime();
+                activitiesLog.CorrespondingMessageId = pp.IdVrfctnRpt.OrgnlAssgnmt.MsgId;
+                
+
+
+
                 // Directory.CreateDirectory(_settings.InwardFilePath!);
-                _logger.LogInformation("\r\n NPS Decrypted Inward Acmt024  for Acmt023 response  is {@res} \r\n  with message id {@msgid}", doc.OuterXml, msgid);
+                _logger.LogInformation("\r\n EasyPay Decrypted Inward Acmt024  for Acmt023 response  is {@res} \r\n  with message id {@msgid}", doc.OuterXml, msgid);
 
                 //deserialize into model
                
@@ -1037,9 +1076,26 @@ namespace NibbssNPSPaymentStack.Business.Services
                 // Now write the file
                 NumericMsgIdGenerator.WriteToFile(path1, doc.OuterXml);
 
+                activitiesLog.Endpoint = _settings.Acmt024Url!;
+                activitiesLog.Baseurl = _settings.BaseUrl; // + _settings.Acmt023Url; 
+
+                await _nPSDBContext.ActivitiesLog.AddAsync(activitiesLog);
+
+                try
+                {
+                    await _nPSDBContext.SaveChangesAsync();
+                    _logger.LogInformation("Table Save Success ==> {mesg}", doc.OuterXml);
+
+                    return CustomResult<Acmt024Response>.Success(acmt024Response, ApplicationConstant.successMessage);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogInformation("Table Save Error ==> {mesg}", ex.Message);
+                 //   return CustomResult<Acmt023Response>.Failure(CustomError.BadRequestError("Data Insertion Failure"));
+                    return CustomResult<Acmt024Response>.Failure(CustomError.BadRequestError("Data Insertion Failure"));
+                }
 
 
-                return CustomResult<Acmt024Response>.Success(acmt024Response, ApplicationConstant.successMessage);
             }
             catch (Exception ex)
             {
@@ -2201,6 +2257,13 @@ namespace NibbssNPSPaymentStack.Business.Services
             activitiesLog.Status = "Success";
             activitiesLog.Response = NpsResponse.message;
             activitiesLog.ResponseDateTime = DateTimeOffset.UtcNow;
+
+            activitiesLog.Endpoint = _settings.Pain001Url!;
+            activitiesLog.Baseurl = _settings.BaseUrl; // + _settings.Acmt023Url; 
+
+
+
+
             await _nPSDBContext.ActivitiesLog.AddAsync(activitiesLog);
 
             try
@@ -2292,6 +2355,12 @@ namespace NibbssNPSPaymentStack.Business.Services
                     activitiesLog.Status = "Failed";
                     activitiesLog.Response = ex.Message;
                     activitiesLog.ResponseDateTime = DateTimeOffset.UtcNow;
+
+
+                    activitiesLog.Endpoint = _settings.Pain008Url!;
+                    activitiesLog.Baseurl = _settings.BaseUrl; // + _settings.Acmt023Url; 
+
+
                     _nPSDBContext.ActivitiesLog.Add(activitiesLog);
                  
                     try
@@ -4346,7 +4415,7 @@ namespace NibbssNPSPaymentStack.Business.Services
                                    TransactionLocation=payload.TransactionLocation,
                                    ChannelCode = payload.ChannelCode,
                                    FixedCollectionAmount=payload.FixedCollectionAmount,
-                                   MandateCode=payload.MandateCategoryCode
+                                   MandateCode= payload.PaymentInforRequest!.PaymentInformationId! //payload.MandateCategoryCode
                                 }
                             }
                         }
